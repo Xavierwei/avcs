@@ -1,8 +1,7 @@
 #Container{
-	background: url(../Images/PC/BackGround.jpg) top center no-repeat #fff;
+	background: url(../Images/PC/BackGround.jpg) top center repeat-y #fff;
 width: 100%;
 margin: 0 auto;
-min-width: 1066px;
 }
 #page {
 width: 1000px;
@@ -19,23 +18,173 @@ letter-spacing: 0.04em;
 #header {
 text-align: center;
 }
+#nav a {
+	display:inline-block;
+	width:319px;
+	height:67px;
+	background-image:  url(../Images/Common/menuback.png);
+	background-repeat: repeat;
+}
+#nav a img{
+	margin:15px 0 0 20px;
+	float:left;
+	border:0;
+ overflow:hidden;
+}
+
+#content{
+	margin:50px 0px 10px 10px;
+}
+#content1{
+	float:left;
+}
+
+#titlediv{
+	margin:0 0 10px 20px;
+	background-image: url(../Images/Common/title.png);
+	width:402px;
+	height:185px;
+}
+
+#videodiv{
+background: url(../Images/PC/video.png);
+width:505px;
+height:449px;
+}
+
+#productdiv{
+	float:left;
+	margin:40px 0 0 150px;
+}
 
 #footer {
 width: 100%;
-height: 87px;
-background: url(../Images/PC/BottomBar.png) bottom center repeat-x;
+margin-top: 50px;
+}
+
+#footerback{
+	height:63px;
+	margin-top:24px;
+background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+
+}
+
+#footercontent{
+	width:980px;
+	margin:0 auto;
+	height: 87px;
+margin-top: -87px;
+}
+
+#footeraction{
+	padding-top: 41px;
+	float:right;
+}
+
+#footeraction a,#footeraction input,#footeraction img{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#footeraction .split{
+	margin-top:-15px;
+}
+
+#ljdy,#mailinput{
+	margin-top:5px;
+}
+
+
+
+#bottomproduct{
+	float:right;
+}
+
+
+@media screen and (max-width:768px){
+
+#page,#container,#footer,#footercontent {
+width: 768px;
+}
+
+
+#nav a {
+	width:245px;
+}
+
+#videodiv{
+background: url(../Images/PAD/video.png);
+width:424px;
+height:453px;
+margin-left:10px;
+}
+#productdiv{
+	float:left;
+	margin:40px 0 0 60px;
+}
+
+#bottomproduct{
+	width: 100%;
 text-align: center;
 }
+#footeraction{
+	width: 100%;
+text-align: center;
+height: 63px;
+	padding-top: 0px;
+background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
 
-#bottomcontent{
-	background-image: url(../Images/PC/BottomContent.png);
-	margin:0 auto;
-	width: 980px;
-	height:85px;
-	border-top: 1px solid transparent;
+}
+#footeraction a,#footeraction img{
+	margin-top:10px;
+		margin-left:10px;
+	margin-right:10px;
+}
+#footeraction .split{
+	margin-top:0px;
+}
+#ljdy{
+	padding-top:15px;
+}
+#mailinput{
+	display:none;
+	margin-top:25px;
+}
 }
 
 
-@media screen and (min-width:600px){
+
+@media screen and (max-width:640px){
+#page,#container,#footer,#footercontent {
+width: 640px;
+}
+#nav a {
+	width:210px;
+}
+
+#content{
+	margin: 0 auto;
+width: 434px;
+margin-top: 50px;
+}
+
+#titlediv{
+	margin:0 0 10px 20px;
+	background-image: url(../Images/Phone/title.png);
+	width:402px;
+	height:185px;
+}
+
+#productdiv{
+	width:434px;
+	margin:0 auto;
+	margin-top:40px;
+	text-align: center;
+}
+#footeraction a,#footeraction img{
+		margin-left:8px;
+	margin-right:8px;
+}
 
 }
