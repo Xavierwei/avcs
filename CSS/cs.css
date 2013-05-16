@@ -1,20 +1,39 @@
-#faqContainer {background:#fff;width:852px;margin:0 auto;padding:1px 0 0;}
-.faq {margin:50px 0 0 43px;}
-.faq1 {background: url(../Images/PC/faq1.png) no-repeat;width: 767px;height:214px;}
-.faq2 {background: url(../Images/PC/faq2.png) no-repeat;width: 766px;height:121px;}
-.faq3 {background: url(../Images/PC/faq3.png) no-repeat;width: 766px;height:98px;}
-.faq4 {background: url(../Images/PC/faq4.png) no-repeat;width: 766px;height:122px;}
-.faq5 {background: url(../Images/PC/faq5.png) no-repeat;width: 766px;height:170px;}
-.faq6 {background: url(../Images/PC/faq6.png) no-repeat;width: 766px;height:148px;}
-.faq7 {background: url(../Images/PC/faq7.png) no-repeat;width: 766px;height:122px;}
-.faq8 {background: url(../Images/PC/faq8.png) no-repeat;width: 766px;height:146px;}
-.faq9 {background: url(../Images/PC/faq9.png) no-repeat;width: 766px;height:194px;}
-.faq10 {background: url(../Images/PC/faq10.png) no-repeat;width: 766px;height:170px;}
+#csContainer {width:960px;background:#fff;}
+#csContainerInner {padding:37px 90px;position:relative;}
+.csHeader {background:url(../Images/PC/cs_title.png) no-repeat;border-bottom:3px solid #f47f6a;padding:0 0 11px 0;height:24px;}
+.csText1 {background: url(../Images/PC/cs_text1.png) no-repeat;height:164px;margin:43px 0 0;}
+.csIcon {background:url(../Images/PC/cs_icon.png) no-repeat center;width:124px;height:84px; position: absolute;right: 90px;top:85px;border:1px solid #eee;padding:3px 10px;}
+.csLearnmore {display:block;background:url(../Images/PC/btn_learnmore.png) no-repeat;width:114px;height:35px;margin:40px 0 0 340px;}
+.cs_item {padding:1px 0 0;margin:60px 0 0;clear:both;}
+.csP1 {background:url(../Images/PC/cs_p1.png) no-repeat;width:244px;height:466px;float:left;margin:0 0 0 50px;}
+.csPt1 {background:url(../Images/PC/cs_pt1.png) no-repeat;width:457px;height:324px;margin:30px 0 0 340px;}
+.csP2 {background:url(../Images/PC/cs_p2.png) no-repeat;width:195px;height:499px;float:left;margin:30px 0 0 100px;}
+.csPt2 {background:url(../Images/PC/cs_pt2.png) no-repeat;width:457px;height:341px;margin:30px 0 0 340px;}
+.csP3 {background:url(../Images/PC/cs_p3.png) no-repeat;width:226px;height:458px;float:left;margin:0 0 0 50px;}
+.csPt3 {background:url(../Images/PC/cs_pt3.png) no-repeat;width:457px;height:346px;margin:20px 0 0 340px;}
 
-
-
-@media screen and (min-width: 640px) and (max-width : 780px){
+@media screen and (max-width : 780px){
+    #csContainer {width:748px;}
+    #csContainerInner {padding:36px 30px;}
+    .csIcon {right:36px;}
+    .csP1 {background:url(../Images/Pad/cs_p1.png) no-repeat;width:244px;height:466px;float:left;margin:0 0 0 0px;}
+    .csPt1 {background:url(../Images/Pad/cs_pt1.png) no-repeat;width:412px;height:324px;margin:30px 0 0 290px;}
+    .csP2 {background:url(../Images/Pad/cs_p2.png) no-repeat;width:195px;height:499px;float:left;margin:30px 0 0 50px;}
+    .csPt2 {background:url(../Images/Pad/cs_pt2.png) no-repeat;width:412px;height:341px;margin:30px 0 0 290px;}
+    .csP3 {background:url(../Images/Pad/cs_p3.png) no-repeat;width:226px;height:458px;float:left;margin:0 0 0 0px;}
+    .csPt3 {background:url(../Images/Pad/cs_pt3.png) no-repeat;width:412px;height:346px;margin:20px 0 0 290px;}
+    .csLearnmore {margin:40px 0 0 290px;}
 }
 
-@media screen and (min-width: 0px) and (max-width : 640px){
+@media screen and (max-width : 640px){
+    #csContainer {width:604px;}
+    #csContainerInner {padding:23px 30px;}
+    .csIcon {top:70px;right:36px;}
+    .csP1 {background:url(../Images/Phone/cs_p1.png) no-repeat 168px 0;height:466px;float:none;width:auto;margin:0;}
+    .csPt1 {background:url(../Images/Phone/cs_pt1.png) no-repeat;width:412px;height:324px;margin:30px 0 0 0;}
+    .csP2 {background:url(../Images/Phone/cs_p2.png) no-repeat 221px 0;height:450px;float:none;width:auto;margin:0;}
+    .csPt2 {background:url(../Images/Phone/cs_pt2.png) no-repeat;width:412px;height:341px;margin:30px 0 0 0;}
+    .csP3 {background:url(../Images/Phone/cs_p3.png) no-repeat 169px 0;height:458px;float:none;width:auto;margin:0;}
+    .csPt3 {background:url(../Images/Phone/cs_pt3.png) no-repeat;width:412px;height:346px;margin:20px 0 0 0;}
+    .csLearnmore {margin:10px auto 0 auto;}
 }
