@@ -1,0 +1,41 @@
+#Container{
+	background: url(../Images/PC/BackGround.jpg) top center no-repeat #fff;
+width: 100%;
+margin: 0 auto;
+min-width: 1066px;
+}
+#page {
+width: 1000px;
+margin: 0 auto;
+font-family: 'FuturaLight', Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 24px;
+font-weight: normal;
+font-style: normal;
+color: #7f7f7f;
+letter-spacing: 0.04em;
+}
+
+#header {
+text-align: center;
+}
+
+#footer {
+width: 100%;
+height: 87px;
+background: url(../Images/PC/BottomBar.png) bottom center repeat-x;
+text-align: center;
+}
+
+#bottomcontent{
+	background-image: url(../Images/PC/BottomContent.png);
+	margin:0 auto;
+	width: 980px;
+	height:85px;
+	border-top: 1px solid transparent;
+}
+
+
+@media screen and (min-width:600px){
+
+}
