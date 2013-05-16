@@ -1,12 +1,107 @@
+body{
+	background:#BFD2DA;
+}
 .clear {clear:both;}
+.left{float:left;}
+.right{float:right;}
+#footer {
+width: 100%;
+margin-top: 50px;
+}
+#logo{
+	margin:20px 0; 
+	width:106px; 
+	height:46px;
+	border:0;
+}
+.current{
+	background:white;
+}
+#footerback{
+	height:63px;
+	margin-top:24px;
+background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+
+}
+
+#footercontent{
+	width:980px;
+	margin:0 auto;
+	height: 87px;
+margin-top: -87px;
+}
+
+#footeraction{
+	padding-top: 41px;
+	float:right;
+}
+
+#footeraction a,#footeraction input,#footeraction img{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+#footeraction .split{
+	margin-top:-15px;
+}
+
+#ljdy,#mailinput{
+	margin-top:5px;
+}
+
+
+
+#bottomproduct{
+	float:right;
+}
+
 
 @media screen and (max-width : 768px){
     #Container {min-width:768px;}
-    #page {width:768px;}
+    #page ,#footer,#footercontent{width:768px;}
+
+    #bottomproduct{
+	width: 100%;
+text-align: center;
+}
+#footeraction{
+	width: 100%;
+text-align: center;
+height: 63px;
+	padding-top: 0px;
+background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+
+}
+#footeraction a,#footeraction img{
+	margin-top:10px;
+		margin-left:10px;
+	margin-right:10px;
+}
+#footeraction .split{
+	margin-top:0px;
+}
+#ljdy{
+	padding-top:15px;
+}
+#mailinput{
+	display:none;
+	margin-top:25px;
+}
 
 }
 
 @media screen and (max-width : 640px){
     #Container {min-width:640px;}
-    #page {width:640px;}
+    #page ,#footer,#footercontent{width:640px;}
+    #productdiv{
+	width:434px;
+	margin:0 auto;
+	margin-top:40px;
+	text-align: center;
+}
+#footeraction a,#footeraction img{
+		margin-left:8px;
+	margin-right:8px;
+}
 }

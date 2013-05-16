@@ -1,6 +1,14 @@
 #header {
 text-align: center;
 }
+#nav{
+    line-height:0px;
+    margin-left:2px;
+
+}
+#page{
+    margin-top:-300px;
+}
 #nav a {
     display:inline-block;
     width:200px;
@@ -17,18 +25,27 @@ text-align: center;
 }
 
 #Container{
-    background: url(../Images/PC/BackGround.jpg) top center repeat-y #fff;
 width: 100%;
 margin: 0 auto;
 }
+#back{
+ background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #fff;
+width: 100%;
+margin: 0 auto;   
+height:300px;
+}
 
-
-#footer{
+#bnav{
 margin: 138px 44px 0 0;
 padding-bottom: 50px;
 }
 
-#footer a{
+#bnavcontent{
+    float:right;
+    width;400px;
+}
+
+#bnav a{
     display:inline-block;
     float:left;
     border:1px solid #eeeeee;
@@ -36,11 +53,16 @@ padding-bottom: 50px;
     height:62px;
 }
 
-#footer a img{
+#bnav a img{
 margin: 10px;
 margin-left:20px;
 }
 
+#xqdj{
+    float:left;
+    margin:20px;
+    margin-top:23px;
+}
 
 
 

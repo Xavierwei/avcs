@@ -1,5 +1,5 @@
 #Container{
-	background: url(../Images/PC/BackGround.jpg) top center repeat-y #fff;
+	background: url(../Images/Common/BackGround.jpg) top center repeat-y #fff;
 width: 100%;
 margin: 0 auto;
 }
@@ -61,48 +61,8 @@ height:449px;
 	margin:40px 0 0 150px;
 }
 
-#footer {
-width: 100%;
-margin-top: 50px;
-}
-
-#footerback{
-	height:63px;
-	margin-top:24px;
-background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
-
-}
-
-#footercontent{
-	width:980px;
-	margin:0 auto;
-	height: 87px;
-margin-top: -87px;
-}
-
-#footeraction{
-	padding-top: 41px;
-	float:right;
-}
-
-#footeraction a,#footeraction input,#footeraction img{
-	float:left;
-	margin-left:5px;
-	margin-right:5px;
-}
-
-#footeraction .split{
-	margin-top:-15px;
-}
-
-#ljdy,#mailinput{
-	margin-top:5px;
-}
-
-
-
-#bottomproduct{
-	float:right;
+#text1{
+	margin:20px 0 0 0 ;
 }
 
 
@@ -130,33 +90,7 @@ margin-left:10px;
 	margin:40px 0 0 60px;
 }
 
-#bottomproduct{
-	width: 100%;
-text-align: center;
-}
-#footeraction{
-	width: 100%;
-text-align: center;
-height: 63px;
-	padding-top: 0px;
-background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
 
-}
-#footeraction a,#footeraction img{
-	margin-top:10px;
-		margin-left:10px;
-	margin-right:10px;
-}
-#footeraction .split{
-	margin-top:0px;
-}
-#ljdy{
-	padding-top:15px;
-}
-#mailinput{
-	display:none;
-	margin-top:25px;
-}
 }
 
 
@@ -175,6 +109,10 @@ width: 434px;
 margin-top: 50px;
 }
 
+#productdiv{
+	float:left;
+	margin:40px 0 0 10px;
+}
 #titlediv{
 	margin:0 0 10px 20px;
 	background-image: url(../Images/Phone/title.png);
@@ -182,15 +120,6 @@ margin-top: 50px;
 	height:185px;
 }
 
-#productdiv{
-	width:434px;
-	margin:0 auto;
-	margin-top:40px;
-	text-align: center;
-}
-#footeraction a,#footeraction img{
-		margin-left:8px;
-	margin-right:8px;
-}
+
 
 }

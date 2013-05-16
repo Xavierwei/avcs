@@ -1,4 +1,64 @@
-#csContainer {width:960px;background:#fff;}
+#Container{
+width: 100%;
+margin: 0 auto;
+}
+#back{
+ background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #fff;
+width: 100%;
+margin: 0 auto;   
+height:300px;
+}
+#header {
+text-align: center;
+}
+#page{
+    margin-top:-300px;
+}
+#nav a {
+    display:inline-block;
+    width:200px;
+    height:67px;
+    background-image:  url(../Images/Common/menuback.png);
+    background-repeat: repeat;
+    margin-left:-3px;
+}
+#nav{
+    line-height:0px;
+    margin-left:2px;
+}
+#nav a img{
+    margin:15px 0 0 20px;
+    float:left;
+    border:0;
+ overflow:hidden;
+}
+
+#bnav{
+margin: 138px 44px 0 0;
+padding-bottom: 50px;
+}
+
+#bnav a{
+    display:inline-block;
+    float:left;
+    border:1px solid #eeeeee;
+    width:187px;
+    height:62px;
+}
+#bnavcontent{
+    float:right;
+    width;400px;
+}
+#bnav a img{
+margin: 10px;
+margin-left:20px;
+}
+#xqdj{
+    float:left;margin:20px;
+    margin-top:23px;
+}
+
+#csContainer {background:#fff;width:960px;margin:0 auto;padding:1px 0 0;}
 #csContainerInner {padding:37px 90px;position:relative;}
 .csHeader {background:url(../Images/PC/cs_title.png) no-repeat;border-bottom:3px solid #f47f6a;padding:0 0 11px 0;height:24px;}
 .csText1 {background: url(../Images/PC/cs_text1.png) no-repeat;height:164px;margin:43px 0 0;}
