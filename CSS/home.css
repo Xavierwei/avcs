@@ -24,6 +24,10 @@ text-align: center;
 	height:67px;
 	background-image:  url(../Images/Common/menuback.png);
 	background-repeat: repeat;
+    margin-left:-3px;
+}
+#nav a:hover{
+	background:white;
 }
 #nav a img{
 	margin:15px 0 0 20px;
@@ -112,6 +116,8 @@ width: 768px;
 #nav a {
 	width:245px;
 }
+
+
 
 #videodiv{
 background: url(../Images/PAD/video.png);
