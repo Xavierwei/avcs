@@ -12,8 +12,7 @@
 .faq10 {background: url(../Images/PC/faq10.png) no-repeat;width: 766px;height:170px;}
 
 
-
-@media screen and (min-width: 640px) and (max-width : 780px){
+@media screen and (max-width : 768px){
     #faqContainer {background:#fff;width:749px;margin:0 auto;padding:1px 0 0;}
     .faq {margin:50px 0 0 43px;}
     .faq1 {background: url(../Images/Pad/faq1.png) no-repeat;width: 667px;height:218px;}
@@ -28,7 +27,7 @@
     .faq10 {background: url(../Images/Pad/faq10.png) no-repeat;width: 667px;height:172px;}
 }
 
-@media screen and (min-width: 0px) and (max-width : 640px){
+@media screen and (max-width:640px){
     #faqContainer {background:#fff;width:600px;margin:0 auto;padding:1px 0 0;}
     .faq {margin:50px 0 0 29px;}
     .faq1 {background: url(../Images/Phone/faq1.png) no-repeat;width: 544px;height:218px;}
