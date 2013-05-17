@@ -33,7 +33,7 @@ background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
 	width:980px;
 	margin:0 auto;
 	height: 87px;
-margin-top: -87px;
+margin-top: -88px;
 }
 
 #footeraction{
@@ -157,5 +157,4 @@ margin-left:20px;
 }
 
 @media screen and (max-height : 960px){
-   #footer {position:relative;margin-top:50px;}
 }

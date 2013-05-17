@@ -32,7 +32,7 @@ margin: 0 auto;
 
 
 
-#discoverContainer {background:#fff;width:852px;margin:0 auto;padding:1px 0 0;}
+#discoverContainer {background:#fff;width:852px;margin:0 auto;padding:1px 0 80px 0;}
 .dText1 {background:url(../Images/PC/d_text1.png) no-repeat;width:436px;height:258px;margin:80px 0 0 40px;float:left;}
 .dText1 div {display:none;}
 .dP1 {background:url(../Images/PC/d_p1.png) no-repeat;width:306px;height:445px;float:right;margin:20px 10px 0;}

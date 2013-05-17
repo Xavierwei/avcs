@@ -29,7 +29,7 @@ margin: 0 auto;
     background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #bfd2da;
 }
 
-#faqContainer {background:#fff;width:852px;margin:0 auto;padding:1px 0 0;}
+#faqContainer {background:#fff;width:852px;margin:0 auto;padding:1px 0 80px 0;}
 .faq {margin:50px 0 0 43px;}
 .faq1 {background: url(../Images/PC/faq1.png) no-repeat;width: 767px;height:214px;}
 .faq2 {background: url(../Images/PC/faq2.png) no-repeat;width: 766px;height:121px;}
@@ -57,5 +57,6 @@ margin: 0 auto;
     .faq {margin:50px 29px 0 29px;}
     .faqTitle {font-size:34px;line-height:140%;}
     .faqContent {font-size:24px;}
+    .faqContent li {background-position:0 13px;}
 
 }
