@@ -25,3 +25,24 @@ var windowResize = function(){
 };
 
 $(window).on('resize',windowResize).resize();
+
+$('#video').fancybox({
+    scrolling : false,
+    minWidth: 400,
+    maxWidth: 1000,
+    padding: 5,
+    type: 'ajax',
+    scrolling: 'auto',
+    helpers: {
+        overlay : {
+            closeClick : true,  // if true, fancyBox will be closed when user clicks on the overlay
+            speedOut   : 200,   // duration of fadeOut animation
+            showEarly  : true,  // indicates if should be opened immediately or wait until the content is ready
+            locked     : false   // if true, the content will be locked into overlay
+        },
+        title : {
+            type : 'float' // 'float', 'inside', 'outside' or 'over'
+        }
+    }
+});
+

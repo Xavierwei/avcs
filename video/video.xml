@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<videoplayer
+	videourl="video.flv"
+	previewimage="video/preview.jpg"
+	width="640"
+	height="480"
+	scalemode="fit"
+	buffertime="0.1"
+	autostart="true"
+	videobgcolor="0xfbeeeb"
+	highlightcolor="0xec7465"
+	controlshidetime="5"
+	startingvolume="7"
+
+	captionfontsize="0"
+	captionfontcolor="0xFFFFFF"
+	captionbgcolor="0x3399FF"
+	captionbgopacity="0"
+
+>Avene</videoplayer>
