@@ -46,3 +46,22 @@ $('#video').fancybox({
     }
 });
 
+//login
+$('#newsletter').ajaxForm({
+    beforeSubmit:  function(){
+        return $("#newsletter").valid();
+    },
+    complete: function(xhr) {
+        $('#newsletter').html('<div class="sent">提交成功</div>');
+    }
+});
+
+$("#newsletter").validate(
+{
+    rules: {
+        email: { required: true, email:true}
+    },
+    messages: {
+        email: { required: '请填写邮箱', email:'请填写正确的邮箱' }
+    }
+});

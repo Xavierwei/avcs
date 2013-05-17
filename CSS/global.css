@@ -1,12 +1,15 @@
 body{
 	background:#bfd2da;
+    font-family: STHeiti,Arial;
+    -webkit-text-size-adjust: none;
 }
 .clear {clear:both;}
 .left{float:left;}
 .right{float:right;}
 #footer {
 width: 100%;
-margin-top: 50px;
+    position: fixed;
+    bottom:0;
 }
 #logo{
 	margin:20px 0; 
@@ -52,13 +55,19 @@ margin-top: -87px;
 
 #ljdy,#mailinput{
 	margin-top:5px;
+    font-family: STHeiti,Arial;
 }
-
-
+#mailinput {width:100px;
+    border:1px solid #bbb;padding:4px 3px;}
+#footeraction form {float:left;width:177px; position: relative;}
+#footeraction .submit {background:url('../Images/Icon/mail.png') no-repeat;width:41px;height:26px;border:none;cursor:pointer;}
+#footeraction .sent {font-size:14px;color:#7c7c7c;margin:7px 0 0 6px;}
+#footeraction label.error {position:absolute;left:7px;top:30px;color:#f47f6a;}
 
 #bottomproduct{
 	float:right;
 }
+#bottomproduct:hover {opacity:0.7;}
 
 
 #bnav{
@@ -79,8 +88,7 @@ padding-bottom: 50px;
     height:62px;
 }
 #bnav a:hover{
-    background:#f4f4f4;
-    border-color: #ccc;
+   opacity:0.7;
 }
 
 #bnav a img{
@@ -102,31 +110,32 @@ margin-left:20px;
 
     #bottomproduct{
 	width: 100%;
-text-align: center;
-}
-#footeraction{
-	width: 100%;
-text-align: center;
-height: 63px;
-	padding-top: 0px;
-background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+    text-align: center;
+    }
+    #footeraction{
+        width: 100%;
+    text-align: center;
+    height: 63px;
+        padding-top: 0px;
+    background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
 
-}
-#footeraction a,#footeraction img{
-	margin-top:10px;
-		margin-left:10px;
-	margin-right:10px;
-}
-#footeraction .split{
-	margin-top:0px;
-}
-#ljdy{
-	padding-top:15px;
-}
-#mailinput{
-	display:none;
-	margin-top:25px;
-}
+    }
+    #footeraction a,#footeraction img{
+        margin-top:10px;
+            margin-left:10px;
+        margin-right:10px;
+    }
+    #footeraction .split{
+        margin-top:0px;
+    }
+    #ljdy{
+        padding-top:15px;
+    }
+    #mailinput{
+        margin-top:23px;
+    }
+    #footeraction .submit {margin:20px 0 0;}
+    #footeraction label.error {top:50px;}
 
 }
 
@@ -134,13 +143,19 @@ background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
     #Container {min-width:640px;}
     #page ,#footer,#footercontent{width:640px;}
     #productdiv{
-	width:434px;
-	margin:0 auto;
-	margin-top:40px;
-	text-align: center;
+        width:434px;
+        margin:0 auto;
+        margin-top:40px;
+        text-align: center;
+    }
+    #footeraction a,#footeraction img{
+            margin-left:8px;
+        margin-right:8px;
+    }
+    #footeraction form {width:77px;}
+    #mailinput {display:none;}
 }
-#footeraction a,#footeraction img{
-		margin-left:8px;
-	margin-right:8px;
-}
+
+@media screen and (max-height : 960px){
+   #footer {position:relative;margin-top:50px;}
 }

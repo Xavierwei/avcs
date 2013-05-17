@@ -1,4 +1,4 @@
-body {background:#f3f7f8 url(../Images/Common/home_bg.png) repeat-x;}
+body {background:#d8e3e9 url(../Images/Common/home_bg.png) repeat-x;}
 #Container{
 	background: url(../Images/Common/BackGround.jpg) top center repeat-y;
 width: 100%;
@@ -89,12 +89,12 @@ width: 768px;
 
 
 #videodiv{
-background: url(../Images/PAD/videodiv.png);
+background: url(../Images/Pad/videodiv.png);
 width:418px;
 height:448px;
 }
 #video{
-background: url(../Images/PAD/video.jpg);
+background: url(../Images/Pad/video.jpg);
 width:279px;
 height:157px;
 display:inline-block;
