@@ -1,18 +1,12 @@
 #Container{
 width: 100%;
 margin: 0 auto;
-}
-#back{
- background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #fff;
-width: 100%;
-margin: 0 auto;   
-height:300px;
+    background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #bfd2da;
 }
 #header {
 text-align: center;
 }
 #page{
-    margin-top:-300px;
 }
 #nav a {
     display:inline-block;

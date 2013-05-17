@@ -1,5 +1,6 @@
+body {background:#f3f7f8 url(../Images/Common/home_bg.png) repeat-x;}
 #Container{
-	background: url(../Images/Common/BackGround.jpg) top center repeat-y #fff;
+	background: url(../Images/Common/BackGround.jpg) top center repeat-y;
 width: 100%;
 margin: 0 auto;
 }

@@ -7,7 +7,6 @@ text-align: center;
 
 }
 #page{
-    margin-top:-300px;
 }
 #nav a {
     display:inline-block;
@@ -27,14 +26,8 @@ text-align: center;
 #Container{
 width: 100%;
 margin: 0 auto;
+    background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #bfd2da;
 }
-#back{
- background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #fff;
-width: 100%;
-margin: 0 auto;   
-height:300px;
-}
-
 
 
 
