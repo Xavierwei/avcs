@@ -107,6 +107,7 @@ margin-left:20px;
 @media screen and (max-width : 768px){
     #Container {min-width:768px;}
     #page ,#footer,#footercontent{width:768px;}
+    #footer { position: relative;}
 
     #bottomproduct{
 	width: 100%;
