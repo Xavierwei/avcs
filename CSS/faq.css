@@ -35,34 +35,7 @@ margin: 0 auto;
 height:300px;
 }
 
-#bnav{
-margin: 138px 44px 0 0;
-padding-bottom: 50px;
-}
 
-#bnavcontent{
-    float:right;
-    width;400px;
-}
-
-#bnav a{
-    display:inline-block;
-    float:left;
-    border:1px solid #eeeeee;
-    width:187px;
-    height:62px;
-}
-
-#bnav a img{
-margin: 10px;
-margin-left:20px;
-}
-
-#xqdj{
-    float:left;
-    margin:20px;
-    margin-top:23px;
-}
 
 
 

@@ -1,5 +1,13 @@
 #header {
-    text-align: center;
+text-align: center;
+}
+#nav{
+    line-height:0px;
+    margin-left:2px;
+
+}
+#page{
+    margin-top:-300px;
 }
 #nav a {
     display:inline-block;
@@ -9,38 +17,24 @@
     background-repeat: repeat;
     margin-left:-3px;
 }
+
 #nav a img{
     margin:15px 0 0 20px;
     float:left;
     border:0;
-    overflow:hidden;
+ overflow:hidden;
 }
 
 #Container{
-    background: url(../Images/PC/BackGround.jpg) top center repeat-y #fff;
-    width: 100%;
-    margin: 0 auto;
+width: 100%;
+margin: 0 auto;
 }
-
-
-#footer{
-    margin: 138px 44px 0 0;
-    padding-bottom: 50px;
+#back{
+ background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #fff;
+width: 100%;
+margin: 0 auto;   
+height:300px;
 }
-
-#footer a{
-    display:inline-block;
-    float:left;
-    border:1px solid #eeeeee;
-    width:187px;
-    height:62px;
-}
-
-#footer a img{
-    margin: 10px;
-    margin-left:20px;
-}
-
 
 
 

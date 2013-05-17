@@ -1,0 +1,151 @@
+#Container{
+	background: url(../Images/Common/BackGround.jpg) top center repeat-y #fff;
+width: 100%;
+margin: 0 auto;
+}
+#page {
+width: 1000px;
+margin: 0 auto;
+font-family: 'FuturaLight', Arial, Helvetica, sans-serif;
+font-size: 15px;
+line-height: 24px;
+font-weight: normal;
+font-style: normal;
+color: #7f7f7f;
+letter-spacing: 0.04em;
+}
+
+#header {
+text-align: center;
+}
+#nav a {
+	display:inline-block;
+	width:319px;
+	height:67px;
+	background-image:  url(../Images/Common/menuback.png);
+	background-repeat: repeat;
+    margin-left:-3px;
+}
+
+#nav a img{
+	margin:15px 0 0 20px;
+	float:left;
+	border:0;
+ overflow:hidden;
+}
+
+#content{
+	margin:50px 0px 10px 10px;
+}
+#content1{
+	float:left;
+}
+
+#titlediv{
+	margin:0 0 10px 20px;
+	background-image: url(../Images/Common/title.png);
+	width:402px;
+	height:185px;
+}
+
+#videodiv{
+background: url(../Images/PC/videodiv.png);
+width:505px;
+height:449px;
+}
+#video{
+background: url(../Images/PC/video.jpg);
+width:415px;
+height:229px;
+display:inline-block;
+margin: 174px 0px 0 44px;
+}
+#video:hover{
+	opacity:0.7;
+}
+
+#productdiv{
+	float:left;
+	margin:40px 0 0 150px;
+}
+
+#text1{
+	margin:20px 0 0 0 ;
+}
+
+
+@media screen and (max-width:768px){
+
+#page,#container,#footer,#footercontent {
+width: 768px;
+}
+
+
+#nav a {
+	width:245px;
+}
+
+
+
+#videodiv{
+background: url(../Images/PAD/videodiv.png);
+width:418px;
+height:448px;
+}
+#video{
+background: url(../Images/PAD/video.jpg);
+width:279px;
+height:157px;
+display:inline-block;
+margin: 225px 0px 0 73px;
+}
+#productdiv{
+	float:left;
+	margin:40px 0 0 60px;
+}
+
+
+}
+
+
+
+@media screen and (max-width:640px){
+#page,#container,#footer,#footercontent {
+width: 640px;
+}
+#nav a {
+	width:210px;
+}
+
+#content{
+	margin: 0 auto;
+width: 434px;
+margin-top: 50px;
+}
+
+#productdiv{
+	float:left;
+	margin:40px 0 0 10px;
+}
+#titlediv{
+	margin:0 0 10px 20px;
+	background-image: url(../Images/Phone/title.png);
+	width:402px;
+	height:185px;
+}
+
+#videodiv{
+background: url(../Images/Phone/videodiv.png);
+width:591px;
+height:394px;
+margin-left: -80px;
+}
+#video{
+background: url(../Images/Phone/video.jpg);
+width:279px;
+height:157px;
+display:inline-block;
+margin: 189px 0px 0 147px;
+}
+
+}
