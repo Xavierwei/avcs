@@ -117,8 +117,8 @@ margin-left:20px;
 
 
 @media screen and (max-width : 768px){
-    
-    body{overflow-x:auto;}
+
+    body{overflow-x:auto;width:768px;}
     #Container {min-width:768px;}
     #page ,#footer,#footercontent{width:768px;}
     #footer { position: relative;}
@@ -155,7 +155,7 @@ margin-left:20px;
 }
 
 @media screen and (max-width : 640px){
-    body{overflow-x:auto;}
+    body{overflow-x:auto;width:640px;}
     #Container {min-width:640px;}
     #page ,#footer,#footercontent{width:640px;}
     #productdiv{
