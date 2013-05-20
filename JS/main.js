@@ -28,11 +28,11 @@ $(window).on('resize',windowResize).resize();
 
 $('#video').fancybox({
     scrolling : false,
-    minWidth: 400,
-    maxWidth: 1000,
-    padding: 5,
+    width: 600,
+    height: 338,
+    padding: 0,
     type: 'ajax',
-    scrolling: 'auto',
+    scrolling: 'no',
     helpers: {
         overlay : {
             closeClick : true,  // if true, fancyBox will be closed when user clicks on the overlay

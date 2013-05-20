@@ -3,8 +3,8 @@
 <videoplayer
 	videourl="video.flv"
 	previewimage="video/preview.jpg"
-	width="640"
-	height="360"
+	width="600"
+	height="338"
 	scalemode="fit"
 	buffertime="0.1"
 	autostart="true"
