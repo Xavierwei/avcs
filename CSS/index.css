@@ -20,8 +20,8 @@ letter-spacing: 0.04em;
 #header {
 text-align: center;
 }
-#nav{margin-left:5px;}
-
+#nav{margin-left:3px;}
+#nav a{ margin-left:-3px;}
 #nav a img{
 	margin:15px 0 0 20px;
 	float:left;
