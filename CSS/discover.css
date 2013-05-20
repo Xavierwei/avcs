@@ -8,14 +8,7 @@ text-align: center;
 }
 #page{
 }
-#nav a {
-    display:inline-block;
-    width:200px;
-    height:67px;
-    background-image:  url(../Images/Common/menuback.png);
-    background-repeat: repeat;
-    margin-left:-3px;
-}
+
 
 #nav a img{
     margin:15px 0 0 20px;

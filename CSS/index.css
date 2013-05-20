@@ -19,14 +19,7 @@ letter-spacing: 0.04em;
 #header {
 text-align: center;
 }
-#nav a {
-	display:inline-block;
-	width:319px;
-	height:67px;
-	background-image:  url(../Images/Common/menuback.png);
-	background-repeat: repeat;
-    margin-left:-3px;
-}
+
 
 #nav a img{
 	margin:15px 0 0 20px;
@@ -77,16 +70,7 @@ margin: 174px 0px 0 44px;
 
 @media screen and (max-width:768px){
 
-#page,#container,#footer,#footercontent {
-width: 768px;
-}
-
-
-#nav a {
-	width:245px;
-}
-
-
+#page,#container,#footer,#footercontent {width: 768px;}
 
 #videodiv{
 background: url(../Images/Pad/videodiv.png);
@@ -98,7 +82,8 @@ background: url(../Images/Pad/video.jpg);
 width:279px;
 height:157px;
 display:inline-block;
-margin: 225px 0px 0 73px;
+margin: 225px 0px 0 72px;
+border:1px solid #e1e1e1;
 }
 #productdiv{
 	float:left;
@@ -126,7 +111,7 @@ margin-top: 50px;
 
 #productdiv{
 	float:left;
-	margin:40px 0 0 10px;
+	margin:40px 0 0 0px;
 }
 #titlediv{
 	margin:0 0 10px 20px;
@@ -146,7 +131,8 @@ background: url(../Images/Phone/video.jpg);
 width:279px;
 height:157px;
 display:inline-block;
-margin: 189px 0px 0 147px;
+margin: 189px 0px 0 155px;
+border:1px solid #e1e1e1;
 }
 
 }
