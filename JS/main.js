@@ -12,6 +12,10 @@ var windowResize = function(){
           more.insertAfter(picWrap);
       });
       isMobile = 1;
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+          viewportmeta.content = 'width=640';
+      }
   }
   else if(isMobile)
   {
@@ -65,3 +69,8 @@ $("#newsletter").validate(
         email: { required: '请填写邮箱', email:'请填写正确的邮箱' }
     }
 });
+
+if($('.no-touch').length>0)
+{
+    $('body').css({'-webkit-text-size-adjust':'auto'});
+}
