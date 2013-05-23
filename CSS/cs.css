@@ -51,7 +51,7 @@ text-align: center;
     .csText1 * {display:block;}
     .csIcon {right:36px;}
 
-    .cs_item .title {font-size:20px;color:#f47f6a;font-weight: bold;margin:30px 0 0 0;}
+    .cs_item .title {font-size:20px;color:#f47f6a;font-weight: bold;margin:30px 0 0 0;line-height:150%;}
     .cs_item .title span {font-size:16px;font-weight: normal;color:#ef896f;}
     .cs_item .content {font-size:16px;color:#7c7c7c;margin:10px 0 0;line-height:150%;}
     .cs_item .content p {margin:0 0 5px 0;}

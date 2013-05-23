@@ -37,7 +37,7 @@ margin: 0 auto;
 
 @media screen and (max-width : 768px){
     #faqContainer {background:#fff;width:749px;margin:0 auto;padding:1px 0 0;}
-    .faq {margin:50px 43px 0 43px;background:none;width:auto;height:auto;}
+    .faq {margin:50px 43px 0 43px;background:none;width:542px;height:auto;}
     .faq * {display:block;}
     .faqTitle {font-size:24px;color:#f47f6a;border:1px solid #facbc3;padding:17px;font-weight: bold;}
     .faqContent {font-size:16px;color:#7c7c7c;line-height:150%;margin:15px 0 0;}

@@ -14,7 +14,7 @@ var windowResize = function(){
       isMobile = 1;
       var viewportmeta = document.querySelector('meta[name="viewport"]');
       if (viewportmeta) {
-          viewportmeta.content = 'width=640';
+          viewportmeta.content = 'width=640, minimum-scale=0.5, maximum-scale=2.0';
       }
   }
   else if(isMobile)
