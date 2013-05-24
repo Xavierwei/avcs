@@ -72,7 +72,7 @@ text-align: center;
     #csContainer {width:604px;}
     #csContainerInner {padding:23px 30px;}
     .csHeader {font-size:34px;margin:30px 0 0;}
-    .csText1 {height:auto;}
+    .csText1 {height:auto;margin:67px 0 0;}
     .csText1 .title {font-size:30px;}
     .csText1 .content {font-size:26px;}
     .csIcon {top:110px;right:36px;}
