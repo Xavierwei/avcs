@@ -2,7 +2,6 @@ body{
 	background:#bfd2da;
     font-family: STHeiti,Arial;
     -webkit-text-size-adjust: none;
-    overflow-x:hidden;
 
 }
 .fancybox-lock .fancybox-overlay{overflow:hidden;}
@@ -72,8 +71,8 @@ width: 100%;
     font-family: STHeiti,Arial;
 }
 #mobilemail{ display:none; background: url('../Images/Icon/mail.png') no-repeat; width: 41px; height: 26px; border: none; cursor: pointer; }
-#mailinput {width:100px;
-    border:1px solid #bbb;padding:4px 3px;}
+#mailinput {width:100px;border:1px solid #bbb;padding:4px 3px;}
+#mailinputbtn{margin-top: 3px;}
 #footeraction form {float:left;width:177px; position: relative;}
 #footeraction .submit {background:url('../Images/Icon/mail.png') no-repeat;width:41px;height:26px;border:none;cursor:pointer;}
 #footeraction .sent {font-size:14px;color:#7c7c7c;margin:7px 0 0 6px;}
@@ -129,7 +128,7 @@ background:transparent;
 
 @media screen and (max-width : 768px){
 
-    body{overflow-x:auto;width:768px;}
+    body{width:768px;}
     #Container {min-width:768px;}
     #page ,#footer,#footercontent{width:768px;}
     #footer { position: relative;background:none;}
@@ -152,7 +151,7 @@ background:transparent;
             margin-left:10px;
         margin-right:10px;
     }
-a#mobilemail {margin-top: 20px;}
+a#mobilemail {margin-top: 10px;}
     #footeraction .split{
         margin-top:0px;
     }
@@ -168,7 +167,7 @@ a#mobilemail {margin-top: 20px;}
 }
 
 @media screen and (max-width : 640px){
-    body{overflow-x:auto;width:640px;}
+    body{width:640px;}
     #Container {min-width:640px;}
     #page ,#footer,#footercontent{width:640px;}
     #productdiv{

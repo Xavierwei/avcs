@@ -58,7 +58,7 @@ $('#video').fancybox({
         scrolling: 'no'
       }); 
   $("#backbtn").click(function(){
-    $("#MailInputWin,.fancybox-overlay").css("display","none");
+    parent.$.fancybox.close();
   });
 
 
