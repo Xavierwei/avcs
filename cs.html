@@ -7,6 +7,7 @@
     <meta name="description" content="AVENE">
     <meta name="viewport" content="width=device-width" />
     <link href="CSS/reset.css" rel="stylesheet" />
+    <link href="CSS/jquery.fancybox.css" rel="stylesheet" />
     <link href="CSS/global.css" rel="stylesheet" />
     <link href="CSS/cs.css" rel="stylesheet" />
     <!--[if IE 6]>
@@ -98,17 +99,26 @@
         </div>
     </div>
     <div class="clear" ></div>
-    <div id="footer">
+     <div id="footer">
         <div id="footerback"></div>
         <div id="footercontent">
             <div id="bottomproduct"> <a href="http://www.eau-thermale-avene.cn/hypersensitive-intolerant-skin" target="_blank"><img src="./Images/Common/bottomproduct.png" /></a> </div>
             <div id="footeraction"> <a href="http://www.eau-thermale-avene.cn/?utm_source=10years&utm_medium=campaignsite&utm_campaign=phase2" target="_blank" > <img src="./Images/Icon/logo1.png" /> </a> <img class="split" src="./Images/Common/split.png"  /> <a href="http://weibo.com/eauthermaleavene" target="_blank" ><img src="./Images/Icon/weibo.png" /></a> <a href="http://e.weibo.com/avenedermatologist" target="_blank" ><img src="./Images/Icon/icon1.png" /></a> <img class="split" src="./Images/Common/split.png" /> <a href="http://www.eau-thermale-avene.cn/aveneappdownload/pc.html" target="_blank" ><img src="./Images/Icon/app.png" /></a> <img class="split" src="./Images/Common/split.png"  /> <img src="./Images/Icon/ljdy.png" id="ljdy" />
                 <form id="newsletter">
                     <input id="mailinput" name="email" type="text" placeholder="输入您的电子邮箱" />
-                    <input class="submit" type="submit" value=" " />
+                    <input id="mailinputbtn" class="submit" type="submit" value=" " />
+                    <a id="mobilemail"  href="#MailInputWin" ></a>
                 </form>
             </div>
-
+        </div>
+        <div id="MailInputWin">
+            <form id="mobilenewsletter">
+                <input id="mobilemailinput" name="email" type="text"  />
+                <div>
+                    <input id="backbtn" type="button" value="" />
+                    <input id="okbtn" type="submit" value="" />
+                </div>
+            </form>
         </div>
     </div>
 </div>

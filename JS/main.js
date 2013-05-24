@@ -19,6 +19,7 @@ var windowResize = function(){
   }
   else if(isMobile)
   {
+     
       $('.cs_item').each(function(){
           var textWrap = $(this).find('div').eq(1);
           var more = $(this).find('.csLearnmore');
@@ -50,25 +51,47 @@ $('#video').fancybox({
     }
 });
 
-//login
-$('#newsletter').ajaxForm({
+  $('#mobilemail').fancybox({
+        closeBtn:false,
+        scrolling : false,
+        padding: 0,
+        scrolling: 'no'
+      }); 
+  $("#backbtn").click(function(){
+    $("#MailInputWin,.fancybox-overlay").css("display","none");
+  });
+
+
+//mail
+var SetMailForm=function(form,afterComplete){
+  form.ajaxForm({
     beforeSubmit:  function(){
-        return $("#newsletter").valid();
+        return form.valid();
     },
     complete: function(xhr) {
-        $('#newsletter').html('<div class="sent">提交成功</div>');
+      if(!afterComplete){
+        form.html('<div class="sent">提交成功</div>');
+      }else{
+        afterComplete()
+      }
     }
-});
-
-$("#newsletter").validate(
-{
+  });  
+  form.validate(
+  {
     rules: {
         email: { required: true, email:true}
     },
     messages: {
         email: { required: '请填写邮箱', email:'请填写正确的邮箱' }
     }
+  });
+}
+
+SetMailForm($("#newsletter"));
+SetMailForm($("#mobilenewsletter"),function(){
+        $('#mobilenewsletter').append('<div class="sent" style="margin-top: -131px;margin-left: 482px;">提交成功</div>');
 });
+
 
 if($('.no-touch').length>0)
 {

@@ -5,6 +5,8 @@ body{
     overflow-x:hidden;
 
 }
+.fancybox-lock .fancybox-overlay{overflow:hidden;}
+
 .clear {clear:both;}
 .left{float:left;}
 .right{float:right;}
@@ -69,6 +71,7 @@ width: 100%;
 	margin-top:5px;
     font-family: STHeiti,Arial;
 }
+#mobilemail{ display:none; background: url('../Images/Icon/mail.png') no-repeat; width: 41px; height: 26px; border: none; cursor: pointer; }
 #mailinput {width:100px;
     border:1px solid #bbb;padding:4px 3px;}
 #footeraction form {float:left;width:177px; position: relative;}
@@ -112,8 +115,17 @@ margin-left:20px;
     margin:20px;
     margin-top:23px;
 }
-
-
+#MailInputWin{display:none;background:url(../Images/Phone/maildialog.png);width:590px;height:382px;}
+#mobilemailinput{ width: 480px; margin-top: 170px; margin-left: 55px; height: 65px; font-size: 32px;}
+#backbtn{background:url(../Images/Phone/backbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:76px;cursor:pointer;}
+#okbtn{background:url(../Images/Phone/okbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:30px;cursor:pointer;}
+#mobilenewsletter label{margin-left:-100px;}
+.fancybox-opened .fancybox-skin {
+-webkit-box-shadow:none;
+-moz-box-shadow: none;
+box-shadow: none;
+background:transparent;
+}
 
 @media screen and (max-width : 768px){
 
@@ -140,6 +152,7 @@ margin-left:20px;
             margin-left:10px;
         margin-right:10px;
     }
+a#mobilemail {margin-top: 20px;}
     #footeraction .split{
         margin-top:0px;
     }
@@ -169,7 +182,9 @@ margin-left:20px;
         margin-right:8px;
     }
     #footeraction form {width:77px;}
-    #mailinput {display:none;}
+    #mailinput,#mailinputbtn {display:none;}
+    #mobilemail{display:block;}
+
 }
 
 @media screen and (max-height : 960px){
