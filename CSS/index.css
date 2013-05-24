@@ -1,12 +1,14 @@
-body {background:#d8e3e9 url(../Images/Common/home_bg.png) repeat-x;}
+html {height:100%;}
+body {background:#d8e3e9 url(../Images/Common/home_bg.png) repeat-x;height:100%;}
 #logo{margin-bottom:15px;}
 #Container{
 	background: url(../Images/Common/BackGround.jpg) top center repeat-y;
-width: 100%;
-margin: 0 auto;
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
 }
 #page {
-width: 1000px;
+width: 890px;
 margin: 0 auto;
 font-family: 'FuturaLight', Arial, Helvetica, sans-serif;
 font-size: 15px;
@@ -38,21 +40,21 @@ text-align: center;
 #titlediv{
 	margin:0 0 10px 20px;
 	background-image: url(../Images/Common/title.png);
-	width:402px;
-	height:185px;
+	width:470px;
+	height:70px;
 }
 
 #videodiv{
 background: url(../Images/PC/videodiv.png);
-width:505px;
-height:449px;
+width:538px;
+height:326px;
 }
 #video{
 background: url(../Images/PC/video.jpg);
-width:415px;
-height:229px;
+width:274px;
+height:151px;
 display:inline-block;
-margin: 174px 0px 0 44px;
+margin: 123px 0 0 120px
 }
 #video:hover{
 	opacity:0.7;
@@ -60,11 +62,11 @@ margin: 174px 0px 0 44px;
 
 #productdiv{
 	float:left;
-	margin:140px 0 0 100px;
+	margin:13px 0 0 63px;
     position:relative;
 }
 
-#productTitle {background:url(../Images/PC/home_product_title.png) no-repeat;width:142px;height:36px; position:absolute;top:450px;left:200px;}
+#productTitle {background:url(../Images/PC/home_product_title.png) no-repeat;width:142px;height:36px; position:absolute;top:326px;left:181px;}
 
 #text1{
 	margin:20px 0 0 0 ;
@@ -72,34 +74,39 @@ margin: 174px 0px 0 44px;
 
 
 @media screen and (max-width:768px){
-
+#Container {height:auto;}
+#content {margin:50px 0 0 10px;}
 #page,#container,#footer,#footercontent {width: 768px;}
-
+#titlediv {
+    background:url(../Images/Pad/index_title.png) no-repeat;
+    width:335px;
+    height:150px;
+}
 #videodiv{
 background: url(../Images/Pad/videodiv.png);
 width:418px;
-height:448px;
+height:390px;
 }
 #video{
 background: url(../Images/Pad/video.jpg);
 width:279px;
 height:157px;
 display:inline-block;
-margin: 225px 0px 0 72px;
-border:1px solid #e1e1e1;
+margin: 184px 0 0 71px;
 }
 #productdiv{
 	float:left;
-	margin:40px 0 0 60px;
+	margin:40px 0 0 80px;
 }
 
-#productTitle {background:url(../Images/Common/text1.png) no-repeat center;width:239px;height:18px; margin:10px 0 0 -10px;position:static;}
+#productTitle {background:url(../Images/Pad/text1.png) no-repeat center;width:159px;height:40px; margin:30px 0 0 10px;position:static;}
 
 }
 
 
 
 @media screen and (max-width:640px){
+#Container {height:auto;}
 #page,#container,#footer,#footercontent {
 width: 640px;
 }
