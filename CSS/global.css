@@ -12,6 +12,9 @@ body{
 width: 100%;
     position: fixed;
     bottom:0;
+    height:80px;
+
+    background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
 }
 #logo{
 	margin:20px 0; 
@@ -22,12 +25,11 @@ width: 100%;
 .current{
 	background:white;
 }
-#footerback{
-	height:63px;
-	margin-top:24px;
-background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+/*#footerback{*/
+	/*height:63px;*/
+	/*margin-top:24px;*/
 
-}
+/*}*/
 
 #nav {height:67px;width:603px;margin:0 auto;}
 #nav a {
@@ -43,10 +45,9 @@ background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
 	background:white;
 }
 #footercontent{
-	width:980px;
+	width:880px;
 	margin:0 auto;
 	height: 87px;
-margin-top: -88px;
 }
 
 #footeraction{
@@ -63,7 +64,7 @@ margin-top: -88px;
  opacity: 0.7;
 }
 #footeraction .split{
-	margin-top:-15px;
+	margin-top:-3px;
 }
 
 #ljdy,#mailinput{
@@ -121,22 +122,23 @@ margin-left:20px;
     body{overflow-x:auto;width:768px;}
     #Container {min-width:768px;}
     #page ,#footer,#footercontent{width:768px;}
-    #footer { position: relative;}
+    #footer { position: relative;background:none;}
 
     #bottomproduct{
 	width: 100%;
     text-align: center;
+    background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
     }
     #footeraction{
         width: 100%;
     text-align: center;
-    height: 63px;
+    height: 47px;
         padding-top: 0px;
     background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
 
     }
     #footeraction a,#footeraction img{
-        margin-top:10px;
+        margin-top:4px;
             margin-left:10px;
         margin-right:10px;
     }
@@ -144,12 +146,12 @@ margin-left:20px;
         margin-top:0px;
     }
     #ljdy{
-        padding-top:15px;
+        padding-top:9px;
     }
     #mailinput{
-        margin-top:23px;
+        margin-top:12px;
     }
-    #footeraction .submit {margin:20px 0 0;}
+    #footeraction .submit {margin:9px 0 0;}
     #footeraction label.error {top:50px;}
 
 }
