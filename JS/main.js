@@ -97,3 +97,4 @@ if($('.no-touch').length>0)
 {
     $('body').css({'-webkit-text-size-adjust':'auto'});
 }
+
