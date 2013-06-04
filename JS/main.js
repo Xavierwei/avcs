@@ -70,7 +70,12 @@ var SetMailForm=function(form,afterComplete){
     },
     complete: function(xhr) {
       if(!afterComplete){
-        form.html('<div class="sent">提交成功</div>');
+        if(xhr.responseText == 'state0')
+        {
+            var mail = $('#mailinput').val();
+            form.html('<div class="sent">提交成功</div>');
+            window.open('http://www.club-avene.cn/newsletter.aspx?email='+mail);
+        }
       }else{
         afterComplete()
       }
@@ -89,7 +94,13 @@ var SetMailForm=function(form,afterComplete){
 
 SetMailForm($("#newsletter"));
 SetMailForm($("#mobilenewsletter"),function(){
-        $('#mobilenewsletter').append('<div class="sent" style="margin-top: -131px;margin-left: 482px;">提交成功</div>');
+
+    var mail = $('#mobilemailinput').val();
+    $('#mobilenewsletter').append('<div class="sent" style="margin-top: -131px;margin-left: 482px;">提交成功</div>');
+    window.open('http://www.club-avene.cn/newsletter.aspx?email='+mail);
+    setTimeout(function(){
+        $('#backbtn').click();
+    },1000);
 });
 
 
