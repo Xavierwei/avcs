@@ -1,0 +1,190 @@
+body{
+	background:#bfd2da;
+    font-family: STHeiti,Arial;
+    -webkit-text-size-adjust: none;
+
+}
+.fancybox-lock .fancybox-overlay{overflow:hidden;}
+
+.clear {clear:both;}
+.left{float:left;}
+.right{float:right;}
+#footer {
+width: 100%;
+    position: fixed;
+    bottom:0;
+    height:80px;
+
+    background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+}
+#logo{
+	margin:20px 0;
+	border:0;
+}
+.current{
+	background:white;
+}
+/*#footerback{*/
+	/*height:63px;*/
+	/*margin-top:24px;*/
+
+/*}*/
+
+#nav {height:67px;width:603px;margin:0 auto;}
+#nav a {
+    float:left;
+    width:200px;
+    height:67px;
+    margin:0 0 0 1px;
+    background-image:  url(../Images/Common/menuback.png);
+    background-repeat: repeat;
+}
+
+#nav a:hover{
+	background:white;
+}
+#footercontent{
+	width:880px;
+	margin:0 auto;
+	height: 87px;
+}
+
+#footeraction{
+	padding-top: 41px;
+	float:right;
+}
+
+#footeraction a,#footeraction input,#footeraction img{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+}
+#footeraction a:hover{
+ opacity: 0.7;
+}
+#footeraction .split{
+	margin-top:-3px;
+}
+
+#ljdy,#mailinput{
+	margin-top:5px;
+    font-family: STHeiti,Arial;
+}
+#mobilemail{ display:none; background: url('../Images/Icon/mail.png') no-repeat; width: 41px; height: 26px; border: none; cursor: pointer; }
+#mailinput {width:100px;border:1px solid #bbb;padding:4px 3px;}
+#mailinputbtn{margin-top: 3px;}
+#footeraction form {float:left;width:177px; position: relative;}
+#footeraction .submit {background:url('../Images/Icon/mail.png') no-repeat;width:41px;height:26px;border:none;cursor:pointer;}
+#footeraction .sent {font-size:14px;color:#7c7c7c;margin:7px 0 0 6px;}
+#footeraction label.error {position:absolute;left:7px;top:30px;color:#f47f6a;}
+
+#bottomproduct{
+	float:right;
+}
+#bottomproduct:hover {opacity:0.7;}
+
+
+#bnav{
+margin: 88px 44px 0 0;
+padding-bottom: 50px;
+}
+
+#bnavcontent{
+    float:right;
+}
+
+#bnav a{
+    display:inline-block;
+    float:left;
+    border:1px solid #eeeeee;
+    width:187px;
+    height:62px;
+}
+#bnav a:hover{
+   opacity:0.7;
+}
+
+#bnav a img{
+margin: 10px;
+margin-left:20px;
+}
+
+#xqdj{
+    float:left;
+    margin:20px;
+    margin-top:23px;
+}
+#MailInputWin{display:none;background:url(../Images/Phone/maildialog.png);width:590px;height:382px;}
+#mobilemailinput{ width: 480px; margin-top: 170px; margin-left: 55px; height: 65px; font-size: 32px;}
+#backbtn{background:url(../Images/Phone/backbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:76px;cursor:pointer;}
+#okbtn{background:url(../Images/Phone/okbtn.png) no-repeat;width:202px;height:65px;border:none;margin-top:34px;margin-left:30px;cursor:pointer;}
+#mobilenewsletter label{margin-left:-100px;}
+.fancybox-opened .fancybox-skin {
+-webkit-box-shadow:none;
+-moz-box-shadow: none;
+box-shadow: none;
+background:transparent;
+}
+
+@media screen and (max-width : 768px){
+
+    body{width:768px;}
+    #Container {min-width:768px;}
+    #page ,#footer,#footercontent{width:768px;}
+    #footer { position: relative;background:none;}
+
+    #bottomproduct{
+	width: 100%;
+    text-align: center;
+    background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+    }
+    #footeraction{
+        width: 100%;
+    text-align: center;
+    height: 47px;
+        padding-top: 0px;
+    background: url(../Images/Common/BottomBack.png) bottom center repeat-x;
+
+    }
+    #footeraction a,#footeraction img{
+        margin-top:4px;
+            margin-left:10px;
+        margin-right:10px;
+    }
+a#mobilemail {margin-top: 10px;}
+    #footeraction .split{
+        margin-top:0px;
+    }
+    #ljdy{
+        padding-top:9px;
+    }
+    #mailinput{
+        margin-top:12px;
+    }
+    #footeraction .submit {margin:9px 0 0;}
+    #footeraction label.error {top:50px;}
+
+}
+
+@media screen and (max-width : 640px){
+    body{width:640px;}
+    #Container {min-width:640px;}
+    #page ,#footer,#footercontent{width:640px;}
+    #productdiv{
+        width:434px;
+        margin:0 auto;
+        margin-top:40px;
+        text-align: center;
+    }
+    #footeraction a,#footeraction img{
+            margin-left:8px;
+        margin-right:8px;
+    }
+    #footeraction form {width:77px;}
+    #mailinput,#mailinputbtn {display:none;}
+    #mobilemail{display:block;}
+
+}
+
+@media screen and (max-height : 960px){
+}

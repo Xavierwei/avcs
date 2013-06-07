@@ -1,0 +1,54 @@
+#header {
+text-align: center;
+}
+#nav{
+    line-height:0px;
+
+}
+#page{
+}
+
+#nav a img{
+    margin:15px 0 0 20px;
+    float:left;
+    border:0;
+ overflow:hidden;
+}
+
+#Container{
+width: 100%;
+margin: 0 auto;
+    background: url(../Images/Common/BackGroundB.jpg) top center  no-repeat #bfd2da;
+}
+
+#faqContainer {background:#fff;width:852px;margin:0 auto;padding:1px 0 80px 0;}
+.faq {margin:50px 0 0 43px;}
+.faq1 {background: url(../Images/PC/faq1.png) no-repeat;width: 767px;height:214px;}
+.faq2 {background: url(../Images/PC/faq2.png) no-repeat;width: 766px;height:121px;}
+.faq3 {background: url(../Images/PC/faq3.png) no-repeat;width: 766px;height:98px;}
+.faq4 {background: url(../Images/PC/faq4.png) no-repeat;width: 766px;height:122px;}
+.faq5 {background: url(../Images/PC/faq5.png) no-repeat;width: 766px;height:170px;}
+.faq6 {background: url(../Images/PC/faq6.png) no-repeat;width: 766px;height:148px;}
+.faq7 {background: url(../Images/PC/faq7.png) no-repeat;width: 766px;height:122px;}
+.faq8 {background: url(../Images/PC/faq8.png) no-repeat;width: 766px;height:146px;}
+.faq9 {background: url(../Images/PC/faq9.png) no-repeat;width: 766px;height:194px;}
+.faq10 {background: url(../Images/PC/faq10.png) no-repeat;width: 766px;height:170px;}
+.faq * {display:none;}
+
+@media screen and (max-width : 768px){
+    #faqContainer {background:#fff;width:749px;margin:0 auto;padding:1px 0 0;}
+    .faq {margin:50px 43px 0 43px;background:none;width:auto;height:auto;}
+    .faq * {display:block;}
+    .faqTitle {font-size:24px;color:#f47f6a;border:1px solid #facbc3;padding:17px;font-weight: bold;}
+    .faqContent {font-size:16px;color:#7c7c7c;line-height:150%;margin:15px 0 0;}
+    .faqContent li {padding:0 0 0 20px;background:url(../Images/Common/bullet.png) no-repeat 0 10px;}
+}
+
+@media screen and (max-width:640px){
+    #faqContainer {background:#fff;width:600px;margin:0 auto;padding:1px 0 0;}
+    .faq {margin:50px 29px 0 29px;}
+    .faqTitle {font-size:34px;line-height:140%;}
+    .faqContent {font-size:24px;}
+    .faqContent li {background-position:0 13px;}
+
+}
