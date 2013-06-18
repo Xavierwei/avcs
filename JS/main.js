@@ -72,12 +72,18 @@ var SetMailForm=function(form,afterComplete){
       if(!afterComplete){
         if(xhr.responseText == 'state0')
         {
-            var mail = $('#mailinput').val();
-            form.html('<div class="sent">提交成功</div>');
-            window.open('http://www.club-avene.cn/newsletter.aspx?email='+mail);
+            $('.newsletter_popup .state0').show();
+            $('.newsletter_popup .state1').hide();
+            $('.newsletter_popup,.newsletter_overlay').fadeIn();
+        }
+        if(xhr.responseText == 'state1')
+        {
+          $('.newsletter_popup .state1').show();
+          $('.newsletter_popup .state0').hide();
+          $('.newsletter_popup,.newsletter_overlay').fadeIn();
         }
       }else{
-        afterComplete()
+        afterComplete(xhr)
       }
     }
   });  
@@ -93,16 +99,26 @@ var SetMailForm=function(form,afterComplete){
 }
 
 SetMailForm($("#newsletter"));
-SetMailForm($("#mobilenewsletter"),function(){
+SetMailForm($("#mobilenewsletter"),function(xhr){
 
-    var mail = $('#mobilemailinput').val();
-    $('#mobilenewsletter').append('<div class="sent" style="margin-top: -131px;margin-left: 482px;">提交成功</div>');
-    window.open('http://www.club-avene.cn/newsletter.aspx?email='+mail);
-    setTimeout(function(){
-        $('#backbtn').click();
-    },1000);
+    $('#backbtn').click();
+    if(xhr.responseText == 'state0')
+    {
+        $('.newsletter_popup .state0').show();
+        $('.newsletter_popup .state1').hide();
+        $('.newsletter_popup,.newsletter_overlay').fadeIn();
+    }
+    if(xhr.responseText == 'state1')
+    {
+        $('.newsletter_popup .state1').show();
+        $('.newsletter_popup .state0').hide();
+        $('.newsletter_popup,.newsletter_overlay').fadeIn();
+    }
 });
 
+$('.newsletter_overlay, .newsletter_popup_close').click(function(){
+    $('.newsletter_popup,.newsletter_overlay').fadeOut();
+});
 
 if($('.no-touch').length>0)
 {
